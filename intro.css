@@ -1,0 +1,43 @@
+body {
+    background-color: #33363D;
+}
+.area {
+    width: 800px;
+    height: 650px;
+    border: 1px solid black;
+    margin-left: 350px;
+   border-radius: 8px;
+   background: linear-gradient(to right,#7E0F4B, #1A5865);
+}
+.heading {
+    position: relative;
+    top: 20px;
+}
+.leftkey {
+    width: 30px;
+}
+.rightkey {
+    width: 30px;
+}
+.heading {
+    text-align: center;
+    color: goldenrod;
+}
+.instructions {
+    text-align: center;
+    position: relative;
+    top: 30%;
+    color: white
+}
+.button {
+    width: 70px;
+    height: 50px;
+    border-radius: 4px;
+    position: relative;
+    top: 65%;
+    left: 88%;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+}
