@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Racing moto</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="intro.css">
 </head>
 <body>
-    <div id="game">
-        <div id="bluecar"><img src="blue.png" alt=""></div>
-        <div id="racecar"><img src="race.png" alt=""></div>
+    <div class="area">
+        <header class="heading">
+            <h1>Welcome to the race</h1>
+        </header>
+        <div class="instructions">
+            <span">
+                Please use the <img src="leftKey.png" alt="LEFT KEY" class="leftkey"> key and <img src="rightKey.png" alt="RIGHT KEY" class="rightkey"> key of the keyboard
+                to have control of the car.
+                <br/><br/>
+                The game will start on clicking OK.
+            </span>
+        </div>
+        <button class="button"><a href="introd.html">OK</a></button>
     </div>
-    <div id="result">
-        <h1>Game Over</h1>
-        <p id="score"></p>
-        <button id="btn" onclick="location.reload()">Restart</button>
-    </div>
-    <script src="index.js"></script>
 </body>
 </html>
